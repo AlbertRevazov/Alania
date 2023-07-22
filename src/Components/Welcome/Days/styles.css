@@ -1,0 +1,11 @@
+.gradient__title {
+  display: block;
+  background: linear-gradient(to right, #ab5bfb, #7690ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 54px;
+  margin: 0;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Raleway";
+}
