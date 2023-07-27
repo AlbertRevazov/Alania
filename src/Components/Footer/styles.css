@@ -1,5 +1,6 @@
 footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -20,6 +21,6 @@ b {
 
 footer b {
   font-weight: 500;
-  color: #fe390c;
+  color: #e87d0e;
   margin: 0 5px;
 }

@@ -1,28 +1,48 @@
 .icon-button {
-  --size: 40px;
+  --size: 90px;
   min-width: var(--size);
   height: var(--size);
   cursor: pointer;
 }
 
-.icon-button.left,
+
 .icon-button.left.disable {
-  background: url("../../../../public/icons/arrow_left.svg") center / 100% 100%
+  background: url("../../../../public/icons/arrow_up.svg") center / 100% 100%
     no-repeat;
+  @media (min-width: 767px) {
+    background: url("../../../../public/icons/arrow_left.svg") center / 100%
+      100% no-repeat;
+  }
 }
-.icon-button.left:hover {
-  background: url("../../../../public/icons/arrow_left_active.svg") center /
+
+.icon-button.left {
+  background: url("../../../../public/icons/arrow_up_active.svg") center /
     100% 100% no-repeat;
+  @media (min-width: 767px) {
+    background: url("../../../../public/icons/arrow_left_active.svg") center /
+      100% 100% no-repeat;
+  }
 }
-.icon-button.right,
+
+
 .icon-button.right.disable {
-  background: url("../../../../public/icons/arrow_right.svg") center / 100% 100%
+  background: url("../../../../public/icons/arrow_down.svg") center / 100% 100%
     no-repeat;
+  @media (min-width: 767px) {
+    background: url("../../../../public/icons/arrow_right.svg") center / 100%
+      100% no-repeat;
+  }
 }
-.icon-button.right:hover {
-  background: url("../../../../public/icons/arrow_right_active.svg") center /
+
+.icon-button.right {
+  background: url("../../../../public/icons/arrow_down_active.svg") center /
     100% 100% no-repeat;
+  @media (min-width: 767px) {
+    background: url("../../../../public/icons/arrow_right_active.svg") center /
+      100% 100% no-repeat;
+  }
 }
+
 .icon-button.left.disable,
 .icon-button.right.disable {
   pointer-events: none;

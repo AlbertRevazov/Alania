@@ -6,20 +6,18 @@ export const WelcomeAlternate: FC = () => {
     <div className="welcome__alt">
       <div className="title__wrap">
         <div className="title__header">
-          <h1 className="head__title">Work that we produce for our clients</h1>
-          <h3 className="head__name">3D game Dev </h3>
+          <h1 className="head__title">Северную Осетию</h1>
+          <h3 className="head__name">Добро пожаловать в</h3>
         </div>
         <h5 className="head__subtitle">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard.
+          Мы приглашаем вас на захватывающий тур по одному из самых ярких
+          уголков России - <span>Северной Осетии.</span>
+          <br />
+          Вас ждут впечатляющие пейзажи, богатая история и уникальные культурные
+          достопримечательности.
         </h5>
-        <button className="welc__button" type="button">
-          Get more details
-        </button>
       </div>
-      <div className="welc__image">
-        <img src="" alt="" className="" />
-      </div>
+      <div className="welc__image" />
     </div>
   );
 };

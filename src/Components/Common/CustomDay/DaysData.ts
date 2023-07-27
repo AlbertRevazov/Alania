@@ -16,93 +16,83 @@ export const DayOne: IDaysData[] = [
   {
     id: 1,
     daysCount: "first",
-    dayNum: "День первый",
+    dayNum: "1",
     alt: "meow",
     src: "/images/aero.jpg",
-    description: `Заберём прямо из Аэропорта г. Владикавказ
-     и отвезём на базу в горное селение Верхний Фиагдон`,
-    cardTitle: "Трансфер",
+    description: `Answer a quick survey about how you express yourself,
+    what causes you stress, and what area would you like to work on.`,
+    cardTitle: "Заголово",
   },
   {
     id: 2,
     daysCount: "first",
-    dayNum: "День первый",
+    dayNum: "1",
     alt: "meow",
     src: "/images/domik.jpg",
     description: `Answer a quick survey about how you express yourself,
-     what causes you stress, and what area would you like to work on.
-     This way, we can fully personalize your journal!`,
-    cardTitle: "Размещение",
+    what causes you stress, and what area would you like to work on.`,
+    cardTitle: "Заголвок",
   },
   {
     id: 3,
     daysCount: "first",
-    dayNum: "День первый",
+    dayNum: "1",
     alt: "meow",
     src: "/images/panorama.jfif",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
-     what causes you stress, and what area would you like to work on.
-     This way, we can fully personalize your journal!`,
-    cardTitle: "Обед",
+    what causes you stress, and what area would you like to work on.`,
+    cardTitle: "Загловок",
   },
   {
     id: 4,
     daysCount: "first",
-    dayNum: "День первый",
+    dayNum: "1",
     alt: "meow",
     src: "/images/ekskurs.jpg",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
-     what causes you stress, and what area would you like to work on.
-     This way, we can fully personalize your journal!`,
-    cardTitle: "Экскурсия",
+    what causes you stress, and what area would you like to work on.`,
+    cardTitle: "Зголовок",
   },
   {
     id: 5,
     daysCount: "first",
-    dayNum: "День первый",
+    dayNum: "1",
     alt: "meow",
     src: "/images/fiagdon.jpg",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
-     what causes you stress, and what area would you like to work on.
-     This way, we can fully personalize your journal!`,
-    cardTitle: "Возвращаемся",
+    what causes you stress, and what area would you like to work on.`,
+    cardTitle: "Заговок",
   },
   {
     id: 6,
     daysCount: "first",
-    dayNum: "День первый",
+    dayNum: "1",
     alt: "meow",
     src: "/images/restaurant.jpg",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
-     what causes you stress, and what area would you like to work on.
-     This way, we can fully personalize your journal!`,
-    cardTitle: "Ужин",
+    what causes you stress, and what area would you like to work on.`,
+    cardTitle: "Завок",
   },
 ];
 export const DayTwo: IDaysData[] = [
   {
     id: 1,
     daysCount: "second",
-    dayNum: "День второй",
+    dayNum: "2",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
-    cardTitle: "Завтрак",
+    cardTitle: "Second",
   },
   // {
   //   id: 2,
   //   daysCount: "second",
-  //   dayNum: "День второй",
+  //   dayNum: "2",
   //   alt: "meow",
   //   src: "/images/ekskurs.jpg",
-  //   // imgWidth: 300,
+  //
   //   description: `Answer a quick survey about how you express yourself,
   //    what causes you stress, and what area would you like to work on.
   //    This way, we can fully personalize your journal!`,
@@ -111,10 +101,9 @@ export const DayTwo: IDaysData[] = [
   {
     id: 2,
     daysCount: "second",
-    dayNum: "День второй",
+    dayNum: "2",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -123,10 +112,9 @@ export const DayTwo: IDaysData[] = [
   {
     id: 3,
     daysCount: "second",
-    dayNum: "День второй",
+    dayNum: "2",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -135,10 +123,9 @@ export const DayTwo: IDaysData[] = [
   {
     id: 4,
     daysCount: "second",
-    dayNum: "День второй",
+    dayNum: "2",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -147,10 +134,9 @@ export const DayTwo: IDaysData[] = [
   {
     id: 5,
     daysCount: "second",
-    dayNum: "День второй",
+    dayNum: "2",
     alt: "meow",
     src: "/images/fiagdon.jpg",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -159,10 +145,9 @@ export const DayTwo: IDaysData[] = [
   {
     id: 6,
     daysCount: "first",
-    dayNum: "День второй",
+    dayNum: "2",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -173,22 +158,20 @@ export const DayThree: IDaysData[] = [
   {
     id: 1,
     daysCount: "third",
-    dayNum: "День третий",
+    dayNum: "3",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
-    cardTitle: "Плотный завтрак",
+    cardTitle: "Плотный third",
   },
   {
     id: 2,
     daysCount: "third",
-    dayNum: "День третий",
+    dayNum: "3",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -197,10 +180,9 @@ export const DayThree: IDaysData[] = [
   {
     id: 3,
     daysCount: "third",
-    dayNum: "День третий",
+    dayNum: "3",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -209,10 +191,9 @@ export const DayThree: IDaysData[] = [
   {
     id: 4,
     daysCount: " third",
-    dayNum: "День третий",
+    dayNum: "3",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -221,10 +202,9 @@ export const DayThree: IDaysData[] = [
   {
     id: 5,
     daysCount: " third",
-    dayNum: "День третий",
+    dayNum: "3",
     alt: "meow",
     src: "/images/fiagdon.jpg",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -233,10 +213,9 @@ export const DayThree: IDaysData[] = [
   {
     id: 6,
     daysCount: " third",
-    dayNum: "День третий",
+    dayNum: "3",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -247,22 +226,20 @@ export const DayFour: IDaysData[] = [
   {
     id: 1,
     daysCount: "fourth",
-    dayNum: "День четвёртый",
+    dayNum: "4",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
-    cardTitle: "Бодрящий завтрак",
+    cardTitle: "fourth завтрак",
   },
   {
     id: 2,
     daysCount: "fourth",
-    dayNum: "День четвёртый",
+    dayNum: "4",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -271,10 +248,9 @@ export const DayFour: IDaysData[] = [
   {
     id: 3,
     daysCount: "fourth",
-    dayNum: "День четвёртыйй",
+    dayNum: "4й",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -283,10 +259,9 @@ export const DayFour: IDaysData[] = [
   {
     id: 4,
     daysCount: "fourth",
-    dayNum: "День четвёртый",
+    dayNum: "4",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -295,10 +270,9 @@ export const DayFour: IDaysData[] = [
   {
     id: 5,
     daysCount: "fourth",
-    dayNum: "День четвёртый",
+    dayNum: "4",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -307,10 +281,9 @@ export const DayFour: IDaysData[] = [
   {
     id: 6,
     daysCount: "fourth",
-    dayNum: "День четвёртый",
+    dayNum: "4",
     alt: "meow",
     src: "/images/fiagdon.jpg",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -319,10 +292,9 @@ export const DayFour: IDaysData[] = [
   {
     id: 7,
     daysCount: "fourth",
-    dayNum: "День четвёртый",
+    dayNum: "4",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -331,10 +303,9 @@ export const DayFour: IDaysData[] = [
   {
     id: 8,
     daysCount: "fourth",
-    dayNum: "День четвёртый",
+    dayNum: "4",
     alt: "meow",
     src: "/images/aero.jpg",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,
@@ -343,10 +314,9 @@ export const DayFour: IDaysData[] = [
   {
     id: 9,
     daysCount: "fourth",
-    dayNum: "День четвёртый",
+    dayNum: "4",
     alt: "meow",
     src: "/images/logo.png",
-    // imgWidth: 300,
     description: `Answer a quick survey about how you express yourself,
      what causes you stress, and what area would you like to work on.
      This way, we can fully personalize your journal!`,

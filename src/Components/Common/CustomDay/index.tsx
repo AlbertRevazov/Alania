@@ -8,11 +8,11 @@ interface IDaysProps {
 }
 export const CustomDay: FC<IDaysProps> = ({ data }) => {
   const { daysCount, dayNum } = data[0];
+
   return (
     <div className={`${daysCount}__wrap`}>
       <h1 className="day__title"> {dayNum} </h1>
       <div className={`${daysCount}__root__contain`}>
-        {}
         {data.map((day: IDaysData) => (
           <Card
             key={day.src}

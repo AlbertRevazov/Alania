@@ -1,0 +1,21 @@
+.days__button__root {
+  color: #fff;
+  display: flex;
+  justify-content: end;
+  max-width: 1200px;
+  padding: 20px 0;
+}
+h4 {
+  color: #fff;
+}
+.button__root {
+  color: #fff;
+  background-color: rgba(0, 255, 255, 0);
+  padding: 20px;
+  margin: 8px auto;
+  border-radius: 8px;
+  border: 1px solid #e87d0e;
+}
+.button__item {
+  margin: 10px 6px;
+}
