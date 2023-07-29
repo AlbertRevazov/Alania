@@ -1,8 +1,8 @@
 import { FC } from "react";
-import "./styles.css";
 import { IconButton } from "../IconButton";
 import { useSlideHook } from "./hooks";
-import { Days } from "../CustomDay/DaysData";
+import { Days } from "../../Welcome/Days/DaysData";
+import "./styles.css";
 
 export const Slider: FC<Days> = ({ data }) => {
   const { prev, next, activeChange, activeId } = useSlideHook(data.length);

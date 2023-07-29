@@ -1,9 +1,4 @@
-import { IDaysData } from "./../CustomDay/DaysData";
 import { useState } from "react";
-
-interface IuseSlideHookProps {
-  data: IDaysData[];
-}
 
 export const useSlideHook = (length: number) => {
   const [activeId, setActiveId] = useState(0);

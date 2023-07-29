@@ -9,6 +9,7 @@
 
 .left {
   top: 4%;
+
   @media (min-width: 767px) {
     top: 0;
   }
@@ -16,6 +17,7 @@
 
 .right {
   bottom: 4%;
+
   @media (min-width: 767px) {
     bottom: 0;
   }
@@ -42,7 +44,6 @@
 
 .slide {
   height: 100vw;
-  /* min-height: 40px; */
   flex: 1;
   flex-grow: 1;
   width: 85vw;
@@ -54,6 +55,7 @@
   filter: grayscale(100%);
   position: relative;
   z-index: 2;
+
   @media (min-width: 767px) {
     max-height: 600px;
   }
@@ -65,6 +67,7 @@
   border-width: 1px;
   filter: grayscale(0%);
   box-shadow: 2px 4px 8px rgba(0 0 0 / 50%);
+
   @media (min-width: 767px) {
     flex-grow: 6;
   }

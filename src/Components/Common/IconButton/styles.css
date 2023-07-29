@@ -7,39 +7,35 @@
 
 
 .icon-button.left.disable {
-  background: url("../../../../public/icons/arrow_up.svg") center / 100% 100%
-    no-repeat;
+  background: url("../../../../public/icons/arrow_up.svg") center / 100% 100% no-repeat;
+
   @media (min-width: 767px) {
-    background: url("../../../../public/icons/arrow_left.svg") center / 100%
-      100% no-repeat;
+    background: url("../../../../public/icons/arrow_left.svg") center / 100% 100% no-repeat;
   }
 }
 
 .icon-button.left {
-  background: url("../../../../public/icons/arrow_up_active.svg") center /
-    100% 100% no-repeat;
+  background: url("../../../../public/icons/arrow_up_active.svg") center / 100% 100% no-repeat;
+
   @media (min-width: 767px) {
-    background: url("../../../../public/icons/arrow_left_active.svg") center /
-      100% 100% no-repeat;
+    background: url("../../../../public/icons/arrow_left_active.svg") center / 100% 100% no-repeat;
   }
 }
 
 
 .icon-button.right.disable {
-  background: url("../../../../public/icons/arrow_down.svg") center / 100% 100%
-    no-repeat;
+  background: url("../../../../public/icons/arrow_down.svg") center / 100% 100% no-repeat;
+
   @media (min-width: 767px) {
-    background: url("../../../../public/icons/arrow_right.svg") center / 100%
-      100% no-repeat;
+    background: url("../../../../public/icons/arrow_right.svg") center / 100% 100% no-repeat;
   }
 }
 
 .icon-button.right {
-  background: url("../../../../public/icons/arrow_down_active.svg") center /
-    100% 100% no-repeat;
+  background: url("../../../../public/icons/arrow_down_active.svg") center / 100% 100% no-repeat;
+
   @media (min-width: 767px) {
-    background: url("../../../../public/icons/arrow_right_active.svg") center /
-      100% 100% no-repeat;
+    background: url("../../../../public/icons/arrow_right_active.svg") center / 100% 100% no-repeat;
   }
 }
 
