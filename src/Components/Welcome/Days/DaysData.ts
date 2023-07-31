@@ -39,7 +39,7 @@ export const DayOne: IDaysData[] = [
     daysCount: "первый",
     dayNum: "1",
     alt: "meow",
-    src: "/images/panorama.jfif",
+    src: "/images/domik.jpg",
     description: `Answer a quick survey about how you express yourself,
     what causes you stress, and what area would you like to work on.`,
     cardTitle: "Загловок",
@@ -241,7 +241,7 @@ export const DayFour: IDaysData[] = [
     src: "/images/tsey.jpg",
     description: `Катаемся на горнолыжном курорте Цей,
     Купание в термальных источниках "Бирагьзанга" `,
-    cardTitle: "Экскурсия",
+    cardTitle: "Экскурс",
   },
   {
     id: 3,
