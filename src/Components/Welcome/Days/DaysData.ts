@@ -11,7 +11,12 @@ export interface IDaysData {
 export interface Days {
   data: IDaysData[];
 }
-export const daysArray = ["первый", "второй", "третий", "четвёртый"];
+export const daysArray = [
+  "первый день",
+  "второй день",
+  "третий день",
+  "четвёртый",
+];
 
 export const DayOne: IDaysData[] = [
   {

@@ -43,21 +43,15 @@ body {
 }
 
 [class*="__container"] {
-  max-width: 1057px;
+  max-width: 1157px;
   margin: 0 auto;
   padding: 0px 15px;
 }
 
-[class*="__contain"] {
-  max-width: 1280px;
-  padding: 0px 20px;
-  margin: 0 auto;
-}
 .load {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }

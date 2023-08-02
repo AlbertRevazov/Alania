@@ -10,7 +10,7 @@ export interface iDaysProps {
 
 export const Buttons: FC<iDaysProps> = ({ dayCount, setDayCount }) => {
   return (
-    <div className="days__button__root __container">
+    <div className="days__button__root ">
       {daysArray.map((day: string) => (
         <DaysButton
           key={day}

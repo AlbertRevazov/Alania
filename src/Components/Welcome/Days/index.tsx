@@ -5,19 +5,19 @@ import { DayFour, DayOne, DayThree, DayTwo } from "./DaysData";
 import "./styles.css";
 
 export const Days: FC = () => {
-  const [dayCount, setDayCount] = useState("первый");
+  const [dayCount, setDayCount] = useState("первый день");
 
   return (
     <div className="slider__wrap">
-      <div className="content__contain">
+      <div className="content__container">
         <Buttons dayCount={dayCount} setDayCount={setDayCount} />
         <Slider
           data={
-            dayCount === "первый"
+            dayCount === "первый день"
               ? DayOne
-              : dayCount === "второй"
+              : dayCount === "второй день"
               ? DayTwo
-              : dayCount === "третий"
+              : dayCount === "третий день"
               ? DayThree
               : DayFour
           }

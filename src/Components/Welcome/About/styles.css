@@ -1,3 +1,19 @@
-.days__button__root {
+.about__root {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+  @media (min-width: 799.98px) {
+    flex-wrap: nowrap;
+  }
+}
+
+.about__container {
+  margin: 40px auto !important;
+
+  @media (min-width: 799.98px) {
+    margin: 40px auto !important;
+  }
 }

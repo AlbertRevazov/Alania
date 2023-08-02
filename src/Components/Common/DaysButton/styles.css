@@ -1,23 +1,52 @@
 .button__root {
   width: 100%;
-  color: #fff;
-  background-color: rgba(0, 255, 255, 0);
-  padding: 20px;
-  margin: 8px 32px;
-  border-radius: 8px;
-  border: 1px solid #e87d0e;
+  margin: 8px 22px;
+  position: relative;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
   text-transform: uppercase;
-  font-family: 'Montserrat Alternates';
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  letter-spacing: 0.045em;
+}
+
+.button__root svg {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  max-width: 240px;
+}
+
+.button__root svg rect {
+  stroke: #e87d0e;
+  stroke-width: 4;
+  stroke-dasharray: 353, 0;
+  stroke-dashoffset: 0;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.button__root span {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 1px;
+  color: #fff;
 }
 
-.active__button {
-  background-color: #e87d0e;
-  border: 1px solid #ffffff;
-  color: rgb(0, 0, 0);
+.button__root:hover svg rect,
+.active__button svg rect {
+  stroke-width: 4;
+  stroke-dasharray: 123, 543;
+  stroke-dashoffset: 437;
 }
 
 .button__item {

@@ -1,0 +1,55 @@
+.card__root {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+
+  @media (min-width: 799.98px) {
+    margin: 0 20px;
+    max-height: 450px;
+  }
+}
+
+.card__wrap:hover {
+  border: 2px solid #e87d0e;
+}
+
+.card__wrap {
+  border: 2px solid #e87f0e00;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+}
+
+.card__image {
+  width: 110%;
+  min-height: 250px;
+}
+
+.card__title {
+  padding: 10px;
+  text-align: start;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  color: #e87d0e;
+  cursor: default;
+}
+
+.card__description {
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: #605f5f;
+  cursor: default;
+
+  @media (min-width: 767.98px) {
+    max-height: 450px;
+  }
+}
