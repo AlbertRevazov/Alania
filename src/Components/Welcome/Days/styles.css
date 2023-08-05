@@ -1,5 +1,8 @@
 .slider__wrap {
-  background-color: #000;
+  background-image: url('../../../../public/images/slider_bg.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
   padding: 40px 0;
 
   @media (min-width: 899.98px) {

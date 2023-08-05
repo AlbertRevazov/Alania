@@ -7,8 +7,9 @@ export const About: FC = () => {
   return (
     <div className="about__root about__container ">
       {AboutData.map((item) => (
-        <Card item={item} />
+        <Card key={item.id} item={item} />
       ))}
+      
     </div>
   );
 };

@@ -9,10 +9,16 @@ interface ICardProps {
 export const Card: FC<ICardProps> = ({ item }) => {
   return (
     <div className="card__root">
-      <div className="card__wrap">
-        <img className="card__image" src={item.img} alt={item.title} />
-        <h2 className="card__title">{item.title}</h2>
-        <h4 className="card__description">{item.description}</h4>
+      <div className="card">
+        <div className="front">
+          <p>{item.title}</p>
+          <img className="card__image" src={item.img} alt={item.title} />
+        </div>
+        <div className="back">
+          <div>
+            <p>{item.description}</p>
+          </div>
+        </div>
       </div>
     </div>
   );

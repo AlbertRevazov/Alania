@@ -16,6 +16,7 @@ b {
   line-height: 20px;
   text-align: center;
   letter-spacing: -0.04em;
+  cursor: default;
   color: #a9a9aa;
 }
 

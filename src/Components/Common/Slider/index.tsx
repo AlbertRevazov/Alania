@@ -1,11 +1,16 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import { IconButton } from "../IconButton";
 import { useSlideHook } from "./hooks";
 import { Days } from "../../Welcome/Days/DaysData";
 import "./styles.css";
 
 export const Slider: FC<Days> = ({ data }) => {
-  const { prev, next, activeChange, activeId } = useSlideHook(data.length);
+  const { prev, next, activeChange, activeId, setActiveId } = useSlideHook(
+    data.length
+  );
+  useEffect(() => {
+    setActiveId(0);
+  }, [data]);
 
   return (
     <div className="slider-wrap">
