@@ -20,6 +20,7 @@ export const WelcomeBlock: FC = () => {
         </h5>
       </div>
       <div className="welc__image" />
+      <div className="welc__bg" />
     </div>
   );
 };
