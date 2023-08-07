@@ -80,10 +80,7 @@
   overflow: hidden;
   transform: rotateY(-180deg);
   padding: 0 2em;
-  background: linear-gradient(90deg,
-      rgb(119, 61, 3) 47%,
-      rgba(61, 57, 53, 1) 40%);
-  background-size: 400% 400%;
+  background-color: #000000a0;
 }
 
 .back p {
@@ -97,8 +94,8 @@
   letter-spacing: 0.5px;
   padding: 10px;
   color: #fff;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-top: 1px solid #e87f0ed0;
+  border-bottom: 1px solid #e87f0ed0;
 
   @media screen and (min-width: 767.98px) {
     line-height: 30px;
