@@ -123,8 +123,8 @@
   background-position: center;
   position: absolute;
   bottom: -10px;
-
   z-index: 42;
+
   @media (min-width: 899.98px) {
     bottom: -170px;
   }
